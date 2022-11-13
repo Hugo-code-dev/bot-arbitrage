@@ -54,7 +54,7 @@ def calculate_percentage_gap(data):
     binance_prices = get_binance_prices()
     bybit_prices = get_bybit_prices()
     conn = sqlite3.connect(data)
-    for i in range(len(binance_prices)):
+    for i in tqdm(range(len(binance_prices))):
         date = datetime.now()
         for j in range(len(bybit_prices['result'])):
             if binance_prices[i]['symbol'] == bybit_prices['result'][j]['symbol']:
@@ -75,5 +75,4 @@ def calculate_percentage_gap(data):
 if __name__ == '__main__':
     filename = input('Enter database name : ')
     create_database(filename)
-    for i in tqdm(range(100)):
-        calculate_percentage_gap(filename)
+    calculate_percentage_gap(filename)
