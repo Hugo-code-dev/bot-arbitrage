@@ -2,7 +2,6 @@ import requests
 import json
 import sqlite3
 from datetime import datetime
-from tqdm import tqdm
 
 # class Database :
 
@@ -54,7 +53,7 @@ def calculate_percentage_gap(data):
     binance_prices = get_binance_prices()
     bybit_prices = get_bybit_prices()
     conn = sqlite3.connect(data)
-    for i in tqdm(range(len(binance_prices))):
+    for i in (range(len(binance_prices))):
         date = datetime.now()
         for j in range(len(bybit_prices['result'])):
             if binance_prices[i]['symbol'] == bybit_prices['result'][j]['symbol']:
