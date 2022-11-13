@@ -1,5 +1,6 @@
 import requests
 import json
+import sqlite3
 
 def get_binance_prices():
     url = "https://api.binance.com/api/v3/ticker/price"
@@ -27,13 +28,13 @@ def calculate_percentage_gap():
                     print('Binance : ' + binance_prices[i]['symbol'] + ' ' + binance_prices[i]['price'])
                     print('Bybit : ' + bybit_prices['result'][j]['symbol'] + ' ' + bybit_prices['result'][j]['last_price'])
                     print('Binance is more expensive than Bybit')
-                    print('Percentage Gap : ' + str(percentage_gap))
+                    print('Percentage Gap : ' + str(round(percentage_gap,2))+ '%' )
                     print('------------------------------------')
                     with open('result.txt', 'a') as f:
                         f.write('Binance : ' + binance_prices[i]['symbol'] + ' ' + binance_prices[i]['price'] + '\n')
                         f.write('Bybit : ' + bybit_prices['result'][j]['symbol'] + ' ' + bybit_prices['result'][j]['last_price'] + '\n')
                         f.write('Binance is more expensive than Bybit' + '\n')
-                        f.write('Percentage Gap : ' + str(percentage_gap) + '\n')
+                        f.write('Percentage Gap : ' + str(round(percentage_gap,2)) + '%' + '\n')
                         f.write('------------------------------------' + '\n')
                 elif float(binance_prices[i]['price']) < float(bybit_prices['result'][j]['last_price']):
                     bybit_idx += 1
@@ -41,14 +42,14 @@ def calculate_percentage_gap():
                     print('Binance : ' + binance_prices[i]['symbol'] + ' ' + binance_prices[i]['price'])
                     print('Bybit : ' + bybit_prices['result'][j]['symbol'] + ' ' + bybit_prices['result'][j]['last_price'])
                     print('Bybit is more expensive than Binance')
-                    print('Percentage Gap : ' + str(percentage_gap))
+                    print('Percentage Gap : ' + str(round(percentage_gap,2))+ '%' )
                     print('------------------------------------')
                     with open('result.txt', 'a') as f:
                         f.write('Binance : ' + binance_prices[i]['symbol'] + ' ' + binance_prices[i]['price'] + '\n')
                         f.write('Bybit : ' + bybit_prices['result'][j]['symbol'] + ' ' + bybit_prices['result'][j]['last_price'] + '\n')
                         f.write('Bybit is more expensive than Binance' + '\n')
-                        f.write('Percentage Gap : ' + str(percentage_gap) + '\n')
-                        f.write('------------------------------------' + '\n')            
+                        f.write('Percentage Gap : ' + str(round(percentage_gap,2)) + '%' + '\n')
+                        f.write('------------------------------------' + '\n')
 
     print('\nBinance : ' + str(binance_idx))
     print('Bybit : ' + str(bybit_idx))

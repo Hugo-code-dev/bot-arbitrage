@@ -3323,3 +3323,653 @@ Bybit : APTUSDT 4.280
 Bybit is more expensive than Binance
 Percentage Gap : 0.046728971962632426
 ------------------------------------
+Binance : BTCUSDT 16550.01000000
+Bybit : BTCUSDT 16542.50
+Binance is more expensive than Bybit
+Percentage Gap : 0.04537761608602291
+------------------------------------
+Binance : ETHUSDT 1228.70000000
+Bybit : ETHUSDT 1228.25
+Binance is more expensive than Bybit
+Percentage Gap : 0.03662407422479413
+------------------------------------
+Binance : BNBUSDT 278.40000000
+Bybit : BNBUSDT 278.30
+Binance is more expensive than Bybit
+Percentage Gap : 0.03591954022987281
+------------------------------------
+Binance : NEOUSDT 6.42000000
+Bybit : NEOUSDT 6.41
+Binance is more expensive than Bybit
+Percentage Gap : 0.1557632398753861
+------------------------------------
+Binance : LTCUSDT 57.97000000
+Bybit : LTCUSDT 57.91
+Binance is more expensive than Bybit
+Percentage Gap : 0.10350181128170136
+------------------------------------
+Binance : QTUMUSDT 2.02500000
+Bybit : QTUMUSDT 2.020
+Binance is more expensive than Bybit
+Percentage Gap : 0.24691358024690832
+------------------------------------
+Binance : XRPUSDT 0.34860000
+Bybit : XRPUSDT 0.3487
+Bybit is more expensive than Binance
+Percentage Gap : 0.028677946659016053
+------------------------------------
+Binance : EOSUSDT 0.88000000
+Bybit : EOSUSDT 0.879
+Binance is more expensive than Bybit
+Percentage Gap : 0.11363636363636374
+------------------------------------
+Binance : IOTAUSDT 0.21590000
+Bybit : IOTAUSDT 0.2155
+Binance is more expensive than Bybit
+Percentage Gap : 0.18527095877721697
+------------------------------------
+Binance : ONTUSDT 0.16590000
+Bybit : ONTUSDT 0.16615
+Bybit is more expensive than Binance
+Percentage Gap : 0.15046644598254605
+------------------------------------
+Binance : TRXUSDT 0.05124000
+Bybit : TRXUSDT 0.05113
+Binance is more expensive than Bybit
+Percentage Gap : 0.2146760343481635
+------------------------------------
+Binance : ETCUSDT 19.97000000
+Bybit : ETCUSDT 19.960
+Binance is more expensive than Bybit
+Percentage Gap : 0.050075112668993546
+------------------------------------
+Binance : ICXUSDT 0.15260000
+Bybit : ICXUSDT 0.1535
+Bybit is more expensive than Binance
+Percentage Gap : 0.5863192182410321
+------------------------------------
+Binance : VETUSDT 0.01958000
+Bybit : VETUSDT 0.01960
+Bybit is more expensive than Binance
+Percentage Gap : 0.10204081632652645
+------------------------------------
+Binance : USDCUSDT 0.99990000
+Bybit : USDCUSDT 1.0026
+Bybit is more expensive than Binance
+Percentage Gap : 0.26929982046677886
+------------------------------------
+Binance : LINKUSDT 6.16100000
+Bybit : LINKUSDT 6.165
+Bybit is more expensive than Binance
+Percentage Gap : 0.06488240064883127
+------------------------------------
+Binance : HOTUSDT 0.00155000
+Bybit : HOTUSDT 0.001553
+Bybit is more expensive than Binance
+Percentage Gap : 0.19317450096587024
+------------------------------------
+Binance : ZILUSDT 0.02124000
+Bybit : ZILUSDT 0.02125
+Bybit is more expensive than Binance
+Percentage Gap : 0.04705882352942617
+------------------------------------
+Binance : ZRXUSDT 0.17420000
+Bybit : ZRXUSDT 0.1739
+Binance is more expensive than Bybit
+Percentage Gap : 0.1722158438576319
+------------------------------------
+Binance : BATUSDT 0.22860000
+Bybit : BATUSDT 0.2280
+Binance is more expensive than Bybit
+Percentage Gap : 0.26246719160104526
+------------------------------------
+Binance : XMRUSDT 129.10000000
+Bybit : XMRUSDT 128.90
+Binance is more expensive than Bybit
+Percentage Gap : 0.15491866769944898
+------------------------------------
+Binance : ZECUSDT 40.20000000
+Bybit : ZECUSDT 40.25
+Bybit is more expensive than Binance
+Percentage Gap : 0.12422360248446498
+------------------------------------
+Binance : CELRUSDT 0.01096000
+Bybit : CELRUSDT 0.01100
+Bybit is more expensive than Binance
+Percentage Gap : 0.3636363636363646
+------------------------------------
+Binance : DASHUSDT 33.63000000
+Bybit : DASHUSDT 33.60
+Binance is more expensive than Bybit
+Percentage Gap : 0.08920606601249223
+------------------------------------
+Binance : THETAUSDT 0.88400000
+Bybit : THETAUSDT 0.883
+Binance is more expensive than Bybit
+Percentage Gap : 0.11312217194570146
+------------------------------------
+Binance : ENJUSDT 0.31690000
+Bybit : ENJUSDT 0.3165
+Binance is more expensive than Bybit
+Percentage Gap : 0.12622278321237343
+------------------------------------
+Binance : MATICUSDT 0.89220000
+Bybit : MATICUSDT 0.8920
+Binance is more expensive than Bybit
+Percentage Gap : 0.022416498542925125
+------------------------------------
+Binance : ATOMUSDT 10.47500000
+Bybit : ATOMUSDT 10.480
+Bybit is more expensive than Binance
+Percentage Gap : 0.04770992366412959
+------------------------------------
+Binance : ONEUSDT 0.01423000
+Bybit : ONEUSDT 0.01425
+Bybit is more expensive than Binance
+Percentage Gap : 0.14035087719298892
+------------------------------------
+Binance : ALGOUSDT 0.26080000
+Bybit : ALGOUSDT 0.2610
+Bybit is more expensive than Binance
+Percentage Gap : 0.07662835249043429
+------------------------------------
+Binance : DOGEUSDT 0.08638000
+Bybit : DOGEUSDT 0.0863
+Binance is more expensive than Bybit
+Percentage Gap : 0.09261403102569662
+------------------------------------
+Binance : ANKRUSDT 0.02108000
+Bybit : ANKRUSDT 0.02100
+Binance is more expensive than Bybit
+Percentage Gap : 0.37950664136622486
+------------------------------------
+Binance : MTLUSDT 0.65600000
+Bybit : MTLUSDT 0.655
+Binance is more expensive than Bybit
+Percentage Gap : 0.15243902439024404
+------------------------------------
+Binance : TOMOUSDT 0.29180000
+Bybit : TOMOUSDT 0.2915
+Binance is more expensive than Bybit
+Percentage Gap : 0.1028101439342092
+------------------------------------
+Binance : DENTUSDT 0.00065500
+Bybit : DENTUSDT 0.000656
+Bybit is more expensive than Binance
+Percentage Gap : 0.15243902439024762
+------------------------------------
+Binance : CVCUSDT 0.08840000
+Bybit : CVCUSDT 0.0885
+Bybit is more expensive than Binance
+Percentage Gap : 0.11299435028247343
+------------------------------------
+Binance : CHZUSDT 0.19600000
+Bybit : CHZUSDT 0.19625
+Bybit is more expensive than Binance
+Percentage Gap : 0.12738853503184724
+------------------------------------
+Binance : XTZUSDT 1.01800000
+Bybit : XTZUSDT 1.017
+Binance is more expensive than Bybit
+Percentage Gap : 0.09823182711199527
+------------------------------------
+Binance : RENUSDT 0.07690000
+Bybit : RENUSDT 0.0768
+Binance is more expensive than Bybit
+Percentage Gap : 0.13003901170351478
+------------------------------------
+Binance : RVNUSDT 0.02168000
+Bybit : RVNUSDT 0.02170
+Bybit is more expensive than Binance
+Percentage Gap : 0.09216589861750776
+------------------------------------
+Binance : ARPAUSDT 0.02619000
+Bybit : ARPAUSDT 0.02624
+Bybit is more expensive than Binance
+Percentage Gap : 0.1905487804877971
+------------------------------------
+Binance : IOTXUSDT 0.02383000
+Bybit : IOTXUSDT 0.02390
+Bybit is more expensive than Binance
+Percentage Gap : 0.29288702928870547
+------------------------------------
+Binance : BCHUSDT 100.90000000
+Bybit : BCHUSDT 100.80
+Binance is more expensive than Bybit
+Percentage Gap : 0.09910802775025622
+------------------------------------
+Binance : OGNUSDT 0.10050000
+Bybit : OGNUSDT 0.1007
+Bybit is more expensive than Binance
+Percentage Gap : 0.1986097318768539
+------------------------------------
+Binance : COTIUSDT 0.07440000
+Bybit : COTIUSDT 0.0738
+Binance is more expensive than Bybit
+Percentage Gap : 0.8064516129032118
+------------------------------------
+Binance : SOLUSDT 13.88000000
+Bybit : SOLUSDT 13.860
+Binance is more expensive than Bybit
+Percentage Gap : 0.14409221902018263
+------------------------------------
+Binance : CHRUSDT 0.11010000
+Bybit : CHRUSDT 0.1099
+Binance is more expensive than Bybit
+Percentage Gap : 0.18165304268847024
+------------------------------------
+Binance : KNCUSDT 0.58500000
+Bybit : KNCUSDT 0.5845
+Binance is more expensive than Bybit
+Percentage Gap : 0.08547008547007606
+------------------------------------
+Binance : LRCUSDT 0.24610000
+Bybit : LRCUSDT 0.2460
+Binance is more expensive than Bybit
+Percentage Gap : 0.04063388866315187
+------------------------------------
+Binance : COMPUSDT 38.54000000
+Bybit : COMPUSDT 38.50
+Binance is more expensive than Bybit
+Percentage Gap : 0.10378827192527022
+------------------------------------
+Binance : SCUSDT 0.00234000
+Bybit : SCUSDT 0.00237
+Bybit is more expensive than Binance
+Percentage Gap : 1.2658227848101298
+------------------------------------
+Binance : SNXUSDT 1.61500000
+Bybit : SNXUSDT 1.614
+Binance is more expensive than Bybit
+Percentage Gap : 0.061919504643956035
+------------------------------------
+Binance : SXPUSDT 0.23710000
+Bybit : SXPUSDT 0.2350
+Binance is more expensive than Bybit
+Percentage Gap : 0.8857022353437447
+------------------------------------
+Binance : MKRUSDT 687.00000000
+Bybit : MKRUSDT 686.0
+Binance is more expensive than Bybit
+Percentage Gap : 0.1455604075691412
+------------------------------------
+Binance : STORJUSDT 0.29890000
+Bybit : STORJUSDT 0.2990
+Bybit is more expensive than Binance
+Percentage Gap : 0.03344481605350802
+------------------------------------
+Binance : MANAUSDT 0.45680000
+Bybit : MANAUSDT 0.4565
+Binance is more expensive than Bybit
+Percentage Gap : 0.0656742556917616
+------------------------------------
+Binance : YFIUSDT 5711.00000000
+Bybit : YFIUSDT 5705
+Binance is more expensive than Bybit
+Percentage Gap : 0.10506040973559798
+------------------------------------
+Binance : BALUSDT 5.29800000
+Bybit : BALUSDT 5.290
+Binance is more expensive than Bybit
+Percentage Gap : 0.1510003775009439
+------------------------------------
+Binance : BLZUSDT 0.05930000
+Bybit : BLZUSDT 0.05925
+Binance is more expensive than Bybit
+Percentage Gap : 0.08431703204047458
+------------------------------------
+Binance : JSTUSDT 0.02145000
+Bybit : JSTUSDT 0.02150
+Bybit is more expensive than Binance
+Percentage Gap : 0.23255813953487425
+------------------------------------
+Binance : SRMUSDT 0.22600000
+Bybit : SRMUSDT 0.227
+Bybit is more expensive than Binance
+Percentage Gap : 0.44052863436123385
+------------------------------------
+Binance : ANTUSDT 1.74600000
+Bybit : ANTUSDT 1.750
+Bybit is more expensive than Binance
+Percentage Gap : 0.22857142857142876
+------------------------------------
+Binance : CRVUSDT 0.62000000
+Bybit : CRVUSDT 0.621
+Bybit is more expensive than Binance
+Percentage Gap : 0.16103059581320467
+------------------------------------
+Binance : SANDUSDT 0.60660000
+Bybit : SANDUSDT 0.6073
+Bybit is more expensive than Binance
+Percentage Gap : 0.11526428453810687
+------------------------------------
+Binance : OCEANUSDT 0.12870000
+Bybit : OCEANUSDT 0.1286
+Binance is more expensive than Bybit
+Percentage Gap : 0.0777000777000907
+------------------------------------
+Binance : PAXGUSDT 1737.00000000
+Bybit : PAXGUSDT 1746
+Bybit is more expensive than Binance
+Percentage Gap : 0.5154639175257731
+------------------------------------
+Binance : TRBUSDT 11.58000000
+Bybit : TRBUSDT 11.575
+Binance is more expensive than Bybit
+Percentage Gap : 0.04317789291883231
+------------------------------------
+Binance : KSMUSDT 24.19000000
+Bybit : KSMUSDT 24.15
+Binance is more expensive than Bybit
+Percentage Gap : 0.1653575857792588
+------------------------------------
+Binance : EGLDUSDT 43.90000000
+Bybit : EGLDUSDT 43.85
+Binance is more expensive than Bybit
+Percentage Gap : 0.11389521640090469
+------------------------------------
+Binance : RUNEUSDT 1.13900000
+Bybit : RUNEUSDT 1.141
+Bybit is more expensive than Binance
+Percentage Gap : 0.17528483786152513
+------------------------------------
+Binance : UNIUSDT 5.84000000
+Bybit : UNIUSDT 5.838
+Binance is more expensive than Bybit
+Percentage Gap : 0.034246575342461984
+------------------------------------
+Binance : SUNUSDT 0.00510000
+Bybit : SUNUSDT 0.005120
+Bybit is more expensive than Binance
+Percentage Gap : 0.39062500000000094
+------------------------------------
+Binance : AVAXUSDT 13.18000000
+Bybit : AVAXUSDT 13.160
+Binance is more expensive than Bybit
+Percentage Gap : 0.1517450682852775
+------------------------------------
+Binance : HNTUSDT 4.67000000
+Bybit : HNTUSDT 2.54
+Binance is more expensive than Bybit
+Percentage Gap : 45.610278372591004
+------------------------------------
+Binance : FLMUSDT 0.07680000
+Bybit : FLMUSDT 0.07670
+Binance is more expensive than Bybit
+Percentage Gap : 0.13020833333331902
+------------------------------------
+Binance : FILUSDT 4.34000000
+Bybit : FILUSDT 4.35
+Bybit is more expensive than Binance
+Percentage Gap : 0.2298850574712595
+------------------------------------
+Binance : INJUSDT 1.79300000
+Bybit : INJUSDT 1.7915
+Binance is more expensive than Bybit
+Percentage Gap : 0.08365867261571862
+------------------------------------
+Binance : CTKUSDT 0.75200000
+Bybit : CTKUSDT 0.751
+Binance is more expensive than Bybit
+Percentage Gap : 0.13297872340425546
+------------------------------------
+Binance : AKROUSDT 0.00269000
+Bybit : AKROUSDT 0.002692
+Bybit is more expensive than Binance
+Percentage Gap : 0.0742942050519997
+------------------------------------
+Binance : AXSUSDT 7.41000000
+Bybit : AXSUSDT 7.400
+Binance is more expensive than Bybit
+Percentage Gap : 0.134952766531711
+------------------------------------
+Binance : UNFIUSDT 4.16300000
+Bybit : UNFIUSDT 4.1610
+Binance is more expensive than Bybit
+Percentage Gap : 0.048042277203955513
+------------------------------------
+Binance : ROSEUSDT 0.04645000
+Bybit : ROSEUSDT 0.0464
+Binance is more expensive than Bybit
+Percentage Gap : 0.10764262648008921
+------------------------------------
+Binance : GRTUSDT 0.06240000
+Bybit : GRTUSDT 0.0625
+Bybit is more expensive than Binance
+Percentage Gap : 0.16000000000000458
+------------------------------------
+Binance : REEFUSDT 0.00334800
+Bybit : REEFUSDT 0.003345
+Binance is more expensive than Bybit
+Percentage Gap : 0.08960573476702403
+------------------------------------
+Binance : CKBUSDT 0.00256000
+Bybit : CKBUSDT 0.002570
+Bybit is more expensive than Binance
+Percentage Gap : 0.38910505836574294
+------------------------------------
+Binance : SFPUSDT 0.48610000
+Bybit : SFPUSDT 0.4615
+Binance is more expensive than Bybit
+Percentage Gap : 5.060687101419452
+------------------------------------
+Binance : DODOUSDT 0.11700000
+Bybit : DODOUSDT 0.11635
+Binance is more expensive than Bybit
+Percentage Gap : 0.5555555555555655
+------------------------------------
+Binance : ALICEUSDT 1.15800000
+Bybit : ALICEUSDT 1.165
+Bybit is more expensive than Binance
+Percentage Gap : 0.6008583690987225
+------------------------------------
+Binance : TLMUSDT 0.01512000
+Bybit : TLMUSDT 0.0152
+Bybit is more expensive than Binance
+Percentage Gap : 0.5263157894736856
+------------------------------------
+Binance : BAKEUSDT 0.18910000
+Bybit : BAKEUSDT 0.1895
+Bybit is more expensive than Binance
+Percentage Gap : 0.21108179419525672
+------------------------------------
+Binance : SLPUSDT 0.00258000
+Bybit : SLPUSDT 0.00259
+Bybit is more expensive than Binance
+Percentage Gap : 0.38610038610038716
+------------------------------------
+Binance : ICPUSDT 3.94100000
+Bybit : ICPUSDT 3.93
+Binance is more expensive than Bybit
+Percentage Gap : 0.2791169753869494
+------------------------------------
+Binance : ARUSDT 8.89000000
+Bybit : ARUSDT 8.88
+Binance is more expensive than Bybit
+Percentage Gap : 0.1124859392575904
+------------------------------------
+Binance : MASKUSDT 3.00700000
+Bybit : MASKUSDT 3.005
+Binance is more expensive than Bybit
+Percentage Gap : 0.06651147322913947
+------------------------------------
+Binance : LPTUSDT 6.92000000
+Bybit : LPTUSDT 6.90
+Binance is more expensive than Bybit
+Percentage Gap : 0.28901734104045623
+------------------------------------
+Binance : GTCUSDT 1.72900000
+Bybit : GTCUSDT 1.735
+Bybit is more expensive than Binance
+Percentage Gap : 0.3458213256484153
+------------------------------------
+Binance : KLAYUSDT 0.17000000
+Bybit : KLAYUSDT 0.1695
+Binance is more expensive than Bybit
+Percentage Gap : 0.29411764705882376
+------------------------------------
+Binance : C98USDT 0.28270000
+Bybit : C98USDT 0.2685
+Binance is more expensive than Bybit
+Percentage Gap : 5.0229925716307005
+------------------------------------
+Binance : FLOWUSDT 1.21500000
+Bybit : FLOWUSDT 1.21
+Binance is more expensive than Bybit
+Percentage Gap : 0.4115226337448655
+------------------------------------
+Binance : MINAUSDT 0.54000000
+Bybit : MINAUSDT 0.541
+Bybit is more expensive than Binance
+Percentage Gap : 0.1848428835489835
+------------------------------------
+Binance : RAYUSDT 0.21240000
+Bybit : RAYUSDT 0.213
+Bybit is more expensive than Binance
+Percentage Gap : 0.28169014084506544
+------------------------------------
+Binance : REQUSDT 0.08220000
+Bybit : REQUSDT 0.0821
+Binance is more expensive than Bybit
+Percentage Gap : 0.12165450121653161
+------------------------------------
+Binance : DYDXUSDT 2.41800000
+Bybit : DYDXUSDT 2.405
+Binance is more expensive than Bybit
+Percentage Gap : 0.5376344086021647
+------------------------------------
+Binance : GALAUSDT 0.03025000
+Bybit : GALAUSDT 0.03023
+Binance is more expensive than Bybit
+Percentage Gap : 0.06611570247933615
+------------------------------------
+Binance : ILVUSDT 44.20000000
+Bybit : ILVUSDT 44.3
+Bybit is more expensive than Binance
+Percentage Gap : 0.2257336343114996
+------------------------------------
+Binance : YGGUSDT 0.23010000
+Bybit : YGGUSDT 0.229
+Binance is more expensive than Bybit
+Percentage Gap : 0.4780530204258974
+------------------------------------
+Binance : AGLDUSDT 0.24600000
+Bybit : AGLDUSDT 0.2455
+Binance is more expensive than Bybit
+Percentage Gap : 0.2032520325203254
+------------------------------------
+Binance : DARUSDT 0.13283000
+Bybit : DARUSDT 0.1325
+Binance is more expensive than Bybit
+Percentage Gap : 0.24843785289467513
+------------------------------------
+Binance : BNXUSDT 141.30000000
+Bybit : BNXUSDT 140.85
+Binance is more expensive than Bybit
+Percentage Gap : 0.31847133757962987
+------------------------------------
+Binance : ENSUSDT 12.27000000
+Bybit : ENSUSDT 12.26
+Binance is more expensive than Bybit
+Percentage Gap : 0.08149959250203576
+------------------------------------
+Binance : JASMYUSDT 0.00375900
+Bybit : JASMYUSDT 0.0038
+Bybit is more expensive than Binance
+Percentage Gap : 1.0789473684210475
+------------------------------------
+Binance : RNDRUSDT 0.50100000
+Bybit : RNDRUSDT 0.499
+Binance is more expensive than Bybit
+Percentage Gap : 0.39920159680638756
+------------------------------------
+Binance : BICOUSDT 0.30700000
+Bybit : BICOUSDT 0.305
+Binance is more expensive than Bybit
+Percentage Gap : 0.6514657980456031
+------------------------------------
+Binance : FXSUSDT 4.52000000
+Bybit : FXSUSDT 4.53
+Bybit is more expensive than Binance
+Percentage Gap : 0.22075055187639456
+------------------------------------
+Binance : CVXUSDT 3.68700000
+Bybit : CVXUSDT 3.680
+Binance is more expensive than Bybit
+Percentage Gap : 0.18985625169513626
+------------------------------------
+Binance : PEOPLEUSDT 0.02158000
+Bybit : PEOPLEUSDT 0.02155
+Binance is more expensive than Bybit
+Percentage Gap : 0.1390176088971213
+------------------------------------
+Binance : SPELLUSDT 0.00066570
+Bybit : SPELLUSDT 0.00067
+Bybit is more expensive than Binance
+Percentage Gap : 0.6417910447761269
+------------------------------------
+Binance : ACHUSDT 0.00952000
+Bybit : ACHUSDT 0.00955
+Bybit is more expensive than Binance
+Percentage Gap : 0.3141361256544375
+------------------------------------
+Binance : IMXUSDT 0.41200000
+Bybit : IMXUSDT 0.413
+Bybit is more expensive than Binance
+Percentage Gap : 0.2421307506053271
+------------------------------------
+Binance : GLMRUSDT 0.36020000
+Bybit : GLMRUSDT 0.361
+Bybit is more expensive than Binance
+Percentage Gap : 0.22160664819943698
+------------------------------------
+Binance : API3USDT 1.38600000
+Bybit : API3USDT 1.387
+Bybit is more expensive than Binance
+Percentage Gap : 0.07209805335256755
+------------------------------------
+Binance : XNOUSDT 0.59100000
+Bybit : XNOUSDT 0.5914
+Bybit is more expensive than Binance
+Percentage Gap : 0.0676361176868561
+------------------------------------
+Binance : GMTUSDT 0.38240000
+Bybit : GMTUSDT 0.3820
+Binance is more expensive than Bybit
+Percentage Gap : 0.10460251046025403
+------------------------------------
+Binance : KDAUSDT 0.93100000
+Bybit : KDAUSDT 0.934
+Bybit is more expensive than Binance
+Percentage Gap : 0.321199143468951
+------------------------------------
+Binance : APEUSDT 2.92400000
+Bybit : APEUSDT 2.922
+Binance is more expensive than Bybit
+Percentage Gap : 0.06839945280437003
+------------------------------------
+Binance : BSWUSDT 0.21740000
+Bybit : BSWUSDT 0.2159
+Binance is more expensive than Bybit
+Percentage Gap : 0.6899724011039564
+------------------------------------
+Binance : GALUSDT 1.41200000
+Bybit : GALUSDT 1.410
+Binance is more expensive than Bybit
+Percentage Gap : 0.14164305949008513
+------------------------------------
+Binance : STGUSDT 0.37940000
+Bybit : STGUSDT 0.3795
+Bybit is more expensive than Binance
+Percentage Gap : 0.026350461133066928
+------------------------------------
+Binance : GMXUSDT 40.88000000
+Bybit : GMXUSDT 40.540
+Binance is more expensive than Bybit
+Percentage Gap : 0.8317025440313195
+------------------------------------
+Binance : APTUSDT 4.27160000
+Bybit : APTUSDT 4.265
+Binance is more expensive than Bybit
+Percentage Gap : 0.15450884914319235
+------------------------------------
