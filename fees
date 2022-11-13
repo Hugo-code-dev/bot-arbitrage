@@ -1,6 +1,11 @@
 Fees
 
-Bybit achat = 0% temporaire
-Binance achat = 0%
+Processus :
+Step 1:
+    Bybit achat = 0% - 0.1%
 
-Binance frais d'envoie = 0.29 USDT
+Step 2:
+    Binance vente = 0%
+
+Step 3:
+    Binance frais d'envoie = 0.29 USDT
