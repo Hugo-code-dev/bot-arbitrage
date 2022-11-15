@@ -1,3 +1,4 @@
+import os
 import requests
 import json
 import sqlite3
@@ -5,11 +6,38 @@ from datetime import datetime
 from time import sleep
 from os import system
 
-def create_database(data):
-    conn = sqlite3.connect(data)
-    query = "CREATE TABLE IF NOT EXISTS DATA (UTC TEXT, SYMBOL TEXT, BINANCE_PRICE FLOAT, BYBIT_PRICE FLOAT, DIF FLOAT, SIDE TEXT, ROWID INTEGER PRIMARY KEY AUTOINCREMENT)"
-    conn.execute(query)
-    conn.close()
+DIR = os.path.dirname(os.path.abspath(__file__))
+
+class Database():
+    """Pour utiliser la class Database :
+1. Créer une instance de la class Database en lui passant le nom de la base de données en paramètre
+2. Créer une table avec la méthode create_table en lui passant le nom de la table et les colonnes en paramètre
+3. Insérer des données avec la méthode insert en lui passant le nom de la table et les données en paramètre
+
+Exemple :
+db = Database('test.db')
+db.create_table('test', ['id INTEGER PRIMARY KEY', 'name TEXT'])
+db.insert('test', name='test')"""
+
+    def __init__(self,filename='database.db'):
+        self.filepath = os.path.join(DIR,filename)
+        self.conn = sqlite3.connect(self.filepath)
+        self.cursor = self.conn.cursor()
+
+    def create_table(self,table,columns):
+        try: 
+            request = f'''CREATE TABLE {table} ({','.join(columns)})'''
+            self.cursor.execute(request)
+            self.conn.commit()
+        except sqlite3.OperationalError:
+            return
+
+    def insert(self,table,**kwargs):
+        request = f'''INSERT INTO {table} VALUES ({','.join(['?']*len(kwargs))})'''
+        request_values = tuple(kwargs.values())
+        self.cursor.execute(request,request_values)
+        self.conn.commit()
+
 
 def get_binance_prices():
     url = "https://api.binance.com/api/v3/ticker/price"
@@ -50,7 +78,7 @@ def calculate_percentage_gap(data):
 if __name__ == '__main__':
     while True:
         name = str(datetime.now().strftime("%Y-%m-%d-%H-%M-%S")) + '.db'
-        create_database(name)
+        # create_database(name)
         calculate_percentage_gap(name)
         system('mv *.db files/')
         sleep(60)
