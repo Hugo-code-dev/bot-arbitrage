@@ -4,21 +4,11 @@ import json
 import sqlite3
 from datetime import datetime
 from time import sleep
-from os import system
+from os import path
 
 DIR = os.path.dirname(os.path.abspath(__file__))
 
 class Database():
-    """Pour utiliser la class Database :
-1. Créer une instance de la class Database en lui passant le nom de la base de données en paramètre
-2. Créer une table avec la méthode create_table en lui passant le nom de la table et les colonnes en paramètre
-3. Insérer des données avec la méthode insert en lui passant le nom de la table et les données en paramètre
-
-Exemple :
-db = Database('test.db')
-db.create_table('test', ['id INTEGER PRIMARY KEY', 'name TEXT'])
-db.insert('test', name='test')"""
-
     def __init__(self,filename='database.db'):
         self.filepath = os.path.join(DIR,filename)
         self.conn = sqlite3.connect(self.filepath)
@@ -35,9 +25,8 @@ db.insert('test', name='test')"""
     def insert(self,table,**kwargs):
         request = f'''INSERT INTO {table} VALUES ({','.join(['?']*len(kwargs))})'''
         request_values = tuple(kwargs.values())
-        self.cursor.execute(request,request_values)
+        self.cursor.execute(request, request_values)
         self.conn.commit()
-
 
 def get_binance_prices():
     url = "https://api.binance.com/api/v3/ticker/price"
@@ -51,34 +40,33 @@ def get_bybit_prices():
     json_data = json.loads(response.text)
     return json_data
 
-def calculate_percentage_gap(data):
+def calculate_percentage_gap(database, name):
     binance_idx = 0
     bybit_idx = 0
     binance_prices = get_binance_prices()
     bybit_prices = get_bybit_prices()
-    conn = sqlite3.connect(data)
     for i in (range(len(binance_prices))):
-        date = datetime.now()
+        date = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
         for j in range(len(bybit_prices['result']['list'])):
+            if not binance_prices[i]['symbol'].endswith('USDT'): continue
             if binance_prices[i]['symbol'] == bybit_prices['result']['list'][j]['s']:
                 if float(binance_prices[i]['price']) > float(bybit_prices['result']['list'][j]['lp']):
                     binance_idx += 1
                     percentage_gap = (float(binance_prices[i]['price']) - float(bybit_prices['result']['list'][j]['lp'])) / float(binance_prices[i]['price']) * 100
-                    query = "INSERT INTO DATA (UTC, SYMBOL, BINANCE_PRICE, BYBIT_PRICE, DIF, SIDE) VALUES ('"+str(date)+"','"+binance_prices[i]['symbol']+"','"+binance_prices[i]['price']+"','"+bybit_prices['result']['list'][j]['lp']+"','"+str(round(percentage_gap, 15))+"','Binance')"
-                    conn.execute(query)
+                    if percentage_gap < 15:
+                        database.insert(name, UTC=date,SYMBOL= binance_prices[i]['symbol'], BINANCE_PRICE=binance_prices[i]['price'], BYBIT_PRICE=bybit_prices['result']['list'][j]['lp'], PERCENTAGE_GAP=str(round(percentage_gap,6)), SIDE = 'Binance', ROWID=None)
                 else:
                     bybit_idx += 1
                     percentage_gap = (float(bybit_prices['result']['list'][j]['lp']) - float(binance_prices[i]['price'])) / float(bybit_prices['result']['list'][j]['lp']) * 100
-                    query = "INSERT INTO DATA (UTC, SYMBOL, BINANCE_PRICE, BYBIT_PRICE, DIF, SIDE) VALUES ('"+str(date)+"','"+binance_prices[i]['symbol']+"','"+binance_prices[i]['price']+"','"+bybit_prices['result']['list'][j]['lp']+"','"+str(round(percentage_gap, 15))+"','Bybit')"
-                    conn.execute(query)
-    conn.commit()
+                    if percentage_gap < 15:
+                        database.insert(name, UTC=date,SYMBOL= binance_prices[i]['symbol'], BINANCE_PRICE=binance_prices[i]['price'], BYBIT_PRICE=bybit_prices['result']['list'][j]['lp'], PERCENTAGE_GAP=str(round(percentage_gap,6)), SIDE = 'Bybit', ROWID=None)
     print('Binance : ' + str(binance_idx))
     print('Bybit : ' + str(bybit_idx))
 
 if __name__ == '__main__':
+    database = Database(path.join('files','database.db'))
     while True:
-        name = str(datetime.now().strftime("%Y-%m-%d-%H-%M-%S")) + '.db'
-        # create_database(name)
-        calculate_percentage_gap(name)
-        system('mv *.db files/')
+        name = 'UTC'+str(datetime.now().strftime("%Y_%m_%d_%H_%M"))
+        database.create_table(name, ['UTC TEXT', 'SYMBOL TEXT', 'BINANCE_PRICE TEXT', 'BYBIT_PRICE TEXT', 'DIF TEXT', 'SIDE TEXT', 'ROWID INTEGER PRIMARY KEY AUTOINCREMENT'])
+        calculate_percentage_gap(database, name)
         sleep(60)
