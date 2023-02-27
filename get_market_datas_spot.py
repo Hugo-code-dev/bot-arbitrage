@@ -69,4 +69,4 @@ if __name__ == '__main__':
         name = 'UTC'+str(datetime.now().strftime("%Y_%m_%d_%H_%M"))
         database.create_table(name, ['UTC TEXT', 'SYMBOL TEXT', 'BINANCE_PRICE TEXT', 'BYBIT_PRICE TEXT', 'DIF TEXT', 'SIDE TEXT', 'ROWID INTEGER PRIMARY KEY AUTOINCREMENT'])
         calculate_percentage_gap(database, name)
-        sleep(60)
+        sleep(3600)
